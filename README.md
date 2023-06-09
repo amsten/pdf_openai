@@ -35,6 +35,8 @@ pip install -r requirements.txt
 echo 'OPENAI_API_KEY=' >.env
 ```
 
+Add your own API key to the .env file.
+
 # Increasing efficiency and keeping costs down
 
 1. **Limit the pages processed**: Depending on the nature of the documents you are processing, you may not need to process all the pages. Some documents, for example, might have useful information concentrated in certain sections, while other parts like legal disclaimers or appendixes are less relevant. You could modify the script to focus on certain sections or pages of the document, thus reducing the computational resources required.
